@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RentCharging</string>
+
+    <string-array name="connector_Types">
+        <item>Select Connector Types</item>
+        <item>Standard</item>
+        <item>DC</item>
+        <item>SJAE</item>
+        <item>SJAE2</item>
+    </string-array>
+
+</resources>

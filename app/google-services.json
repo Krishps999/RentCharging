@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354936569649",
+    "firebase_url": "https://rentcharging-a2363.firebaseio.com",
+    "project_id": "rentcharging-a2363",
+    "storage_bucket": "rentcharging-a2363.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354936569649:android:bd3d24ef491f7c6068fa10",
+        "android_client_info": {
+          "package_name": "com.pradhyups.rentcharging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354936569649-0u4kf2rlu0je3n9io7pvgsnej8vs0pm9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pradhyups.rentcharging",
+            "certificate_hash": "7f3d50b8f654e3efe167e2f9460a7ebc129d56eb"
+          }
+        },
+        {
+          "client_id": "354936569649-ainmmbsdqa0ctl4i0qco84tr6msd60m5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB428hcwG04HyFpoLdbbd-b3wfTfNsOBww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354936569649-ainmmbsdqa0ctl4i0qco84tr6msd60m5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

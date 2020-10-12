@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="com.pradhyups.rentcharging.MainActivity" >
+
+    <EditText
+        android:id="@+id/Station_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Station Name"
+        android:gravity="top"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/Station_Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Station_name"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Address here"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/Contact_Info"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Station_Address"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Phone Number"
+        android:inputType="number"/>
+
+    <Spinner
+        android:id="@+id/Connector_Type"
+        android:layout_width="170dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Contact_Info"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/Pick_Station_Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Pick Station Image" />
+
+    <Button
+        android:id="@+id/Save_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/Search_Places"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Show Items" />
+
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sign Out" />
+
+
+</LinearLayout>
